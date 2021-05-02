@@ -1,0 +1,32 @@
+#carouselExampleIndicators{
+    height: 700px;
+}
+.carousel-inner{
+    position: absolute;
+    bottom: 0%;
+    overflow:visible;
+}
+
+
+
+
+@media (min-width: 768px) {
+    #carouselExampleIndicators{
+        height: 450px;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    #carouselExampleIndicators{
+        height: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #carouselExampleIndicators{
+        height: 320px;
+    }
+}
+
+@media (min-width: 1400px) { ... }

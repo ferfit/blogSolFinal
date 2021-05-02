@@ -1,0 +1,194 @@
+@font-face{
+    font-family: "tipografia";
+    src: url("../fonts/pirouette-lt-std-separate-1.otf");
+    font-style: normal;
+}
+
+.banner__cont-principal{
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh ;
+}
+.banner__titulo{
+    font-family: "tipografia";
+    color: #fff;
+    font-size: 100px;
+    padding-top: 230px;
+}
+.banner__subtitulo{
+    color: #e9be5b;
+    margin-left: 30px;
+    font-weight: 400;
+}
+.banner__logo{
+    width: 17%;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+/* terapias */
+.terapias{
+    padding:70px 0;
+    background-image: url(../img/index_terapias2.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.terapias__titulo-principal{
+    font-family: "tipografia";
+    margin-top: 50px;
+    font-size: 80px;
+    
+}
+.terapias__parrafo-principal{
+    text-align: justify;
+}
+.terapias__cont-terapia{
+    background-color: rgba(231, 213, 171, 0.8);
+}
+.terapias__titulo{
+    font-size: 26px;
+}
+.terapias__subtitulo{
+    font-size: 20px;
+}
+
+.terapias__leermas{
+    border-bottom: 2px solid #c1a94f;
+}
+.terapias__ver-todas{
+    background-color: rgba(231, 213, 171, 100);
+    color: #000;
+}
+.terapias__ver-todas:hover{
+    color: #000;
+}
+/***********************************************************************/
+/* BLOG                                                               **/
+/***********************************************************************/
+.blog{
+    padding:30px 0;
+    height: 1200px;
+    background-image: url(../img/index_terapias.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.blog__titulo-principal{
+    font-family: "tipografia";
+    font-size: 80px;
+}
+.blog__cont-post{
+    background: rgb(223,194,124);
+    background: linear-gradient(0deg,  rgba(255,255,255,0.6) 0%, rgba(223,194,124,0.8) 100%);
+}
+.blog__link{
+    color:#c1a94f;
+    border-bottom: 2px solid #c1a94f;
+}
+.blog__ver-todos{
+    background: rgb(223,194,124);
+    background: linear-gradient(0deg,  rgba(255,255,255,0.6) 0%, rgba(223,194,124,0.8) 100%);
+    color: #000;
+    padding: 10px;
+}
+.blog__ver-todos:hover{
+    color: #000;
+}
+/***********************************************************************/
+/* CONTACTO                                                           **/
+/***********************************************************************/
+.contacto{
+    padding: 50px 0 10px 0;
+    background-image: url(../img/index_contacto.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.contacto__cont-formulario{
+    padding: 30px;
+    background: rgba(223, 193, 124, 0.75);
+    
+}
+.contacto__boton-enviar{
+    background-color: #fff;
+}
+
+/***********************************************************************/
+/* FOOTER                                                             **/
+/***********************************************************************/
+.footer__linea{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.288);    
+}
+.footer__copy{
+    color:#cfb145;
+}
+
+
+/**************************************************************************************************************/
+
+/* BREAK POINT ************************************************************************************************/
+
+/**************************************************************************************************************/
+
+@media (min-width: 768px) { 
+    .banner__titulo{
+        font-size: 180px;
+        padding-top:350px;
+    }
+    .banner__subtitulo{
+        margin-left: 30px;
+        font-size: 40px;
+    }
+    .blog{
+        height: 860px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .banner__titulo{
+        font-size: 250px;
+        padding-top: 550px;
+    }
+    .banner__subtitulo{
+        margin-left: 30px;
+        font-size: 80px;
+    }
+    .blog{
+        padding:70px 0 0 0;
+        height: 670px;
+    }
+    .contacto__cont-formulario{
+        /* padding:60px; */
+        
+    }
+    
+ }
+
+
+@media (min-width: 1200px) { 
+    .banner__titulo{
+        font-size: 160px;
+        padding: 100px 0 0 50px;
+    }
+    .banner__subtitulo{
+        margin-left: 210px;
+        font-size:30px;
+    }
+    .blog{
+        height: 800px;
+    }
+ }
+
+
+
+@media (min-width: 1400px) { 
+
+}

@@ -1,0 +1,17 @@
+.banner__cont-principal--terapias{
+    background-image: url(../img/fondo_terapias.png);
+    background-position: bottom;
+}
+.terapias--terapias{
+    background-image: none;
+    background-color: #fff;
+}
+.terapias__cont-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__cont-principal--blog{
+    background-image: url(../img/fondo_blog.png);
+    background-position: bottom;
+}
