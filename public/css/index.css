@@ -117,6 +117,14 @@
     background-color: #fff;
 }
 
+.banner__contacto{
+    height: 700px;
+    background-image: url(../img/fondo__contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /***********************************************************************/
 /* FOOTER                                                             **/
 /***********************************************************************/
