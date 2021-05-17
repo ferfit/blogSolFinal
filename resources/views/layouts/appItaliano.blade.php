@@ -14,7 +14,7 @@
     <script src="{{ asset('js/nav.js') }}" defer></script>
 
   
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

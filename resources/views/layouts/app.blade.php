@@ -38,6 +38,8 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 
     

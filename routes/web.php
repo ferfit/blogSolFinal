@@ -83,3 +83,5 @@ Route::get('/storage-link',function(){
     return 'directorio creado correctamente.';
 });
 
+
+Route::post('/formulario', [App\Http\Controllers\MailController::class, 'getMail'])->name('form');

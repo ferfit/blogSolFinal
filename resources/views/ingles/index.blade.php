@@ -132,6 +132,9 @@ data-aos-duration="1500">
     
 </section>
 
+@if ( session('formulario') )
+ <script>Swal.fire('Your message has been sent successfully.')</script>
+@endif
 
 
 
@@ -153,13 +156,13 @@ data-aos-duration="1500">
       <div class="col-12 col-md-6 
       contacto__cont-formulario rounded shadow-lg">
 
-      <form method="POST" action="" novalidate>
+      <form method="POST" action="{{ route('form') }}" novalidate>
                 @csrf
 
                 
 
                 <div class="form-group ">
-                    <label for="nombre">Nombre </label>
+                    <label for="nombre">Name </label>
                     <input type="text" 
                     name="nombre" 
                     class="form-control @error('nombre') is-invalid @enderror" id="nombre"
@@ -186,10 +189,10 @@ data-aos-duration="1500">
 
 
                 <div class="form-group">
-                    <label for="mensaje">Mensaje</label>
+                    <label for="mensaje">Message</label>
                     <br>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
-                    @error('contenido')
+                    @error('mensaje')
                     <span class="invalid-feedback d-block" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>
@@ -198,7 +201,7 @@ data-aos-duration="1500">
                
 
                 <div class="form-group">
-                    <input type="submit" class="btn btn-white contacto__boton-enviar shadow rounded" value="Enviar">
+                    <input type="submit" class="btn btn-white contacto__boton-enviar shadow rounded" value="Send">
                 </div>
 
 
