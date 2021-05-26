@@ -18,7 +18,9 @@ class PostIndex extends Component
     }
 
      public function getResultsProperty(){
-        return Post::where('titulo','LIKE','%'.$this->search.'%' )->paginate(5);
+        return Post::where('titulo','LIKE','%'.$this->search.'%' )
+                    ->orderBy('id', 'desc')
+                    ->paginate(5);
     } 
 }
 

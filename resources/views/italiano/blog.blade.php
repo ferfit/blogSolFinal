@@ -12,7 +12,7 @@ data-aos-duration="1500">
     data-aos-offset="200"
     data-aos-delay="100"
     data-aos-duration="2000"
-    >Blog italiano</h1>
+    >Blog</h1>
     
     </div>
 

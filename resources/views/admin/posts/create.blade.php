@@ -31,7 +31,7 @@
                         <strong>{{ $message }}</strong>
                     </span>
                     @enderror
-                    <p class="mt-3">"Tamaño de la imagen 1280 x 835 px"</p>
+                    <p class="mt-3">"Tamaño de la imagen 1280 x 853 px"</p>
                 </div>
 
                 <div class="form-group my-5 mx-2">
