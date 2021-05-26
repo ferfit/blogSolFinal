@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
+@section('metas')
+  <meta name="robots" content="index,follow"/> 
+@endsection
+
 @section('content')
-<section class="banner m-0" 
+<section class="banner m-0 position-relative" 
 data-aos="fade-opacity"
 data-aos-duration="1500">
 
@@ -27,6 +31,8 @@ data-aos-duration="1500">
     src="{{asset('img/logo.png')}}" class="banner__logo" alt="">
     
     </div>
+
+    
 
 </section>
 

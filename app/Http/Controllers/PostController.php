@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\Servicio;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
@@ -135,6 +136,7 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
+        
         $post->delete();
 
         return redirect()->route('administracion.posts.index'); 

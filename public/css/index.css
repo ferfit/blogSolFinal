@@ -4,6 +4,8 @@
     font-style: normal;
 }
 
+
+
 .banner__cont-principal{
     background-image: url(../img/1.png);
     background-position: center;
@@ -22,7 +24,7 @@
     font-weight: 400;
 }
 .banner__logo{
-    width: 17%;
+    width: 30%;
     position: absolute;
     top: 70px;
     right: 20px;
@@ -158,6 +160,9 @@
     .blog{
         height: 860px;
     }
+    .banner__logo{
+        width: 25%;
+    }
 }
 
 @media (min-width: 992px) { 
@@ -193,10 +198,17 @@
     .blog{
         height: 800px;
     }
+    .banner__logo{
+        width: 17%;
+    }
  }
 
 
 
 @media (min-width: 1400px) { 
+
+    .banner__logo{
+        right: 150px;
+    }
 
 }

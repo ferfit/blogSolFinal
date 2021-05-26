@@ -1,5 +1,9 @@
 @extends('layouts.appIngles')
 
+@section('metas')
+  <meta name="robots" content="index,follow"/> 
+@endsection
+
 @section('content')
 <section class="banner m-0" 
 data-aos="fade-opacity"
