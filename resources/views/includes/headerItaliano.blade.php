@@ -39,7 +39,7 @@
         <div class="row">
 
             <div class=" overflow-hidden">
-                  <a href="{{ route('inicio')}}"><img class="w-75" src="{{ asset('img/español.png') }}" alt=""></a>
+                  <a href="{{ route('inicio')}}"><img class="w-75" src="{{ asset('img/espanol.png') }}" alt=""></a>
             </div>
 
             <div class="">
